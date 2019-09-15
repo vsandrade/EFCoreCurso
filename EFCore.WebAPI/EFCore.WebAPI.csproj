@@ -6,15 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20190912120525_initial.cs" />
-    <Compile Remove="Migrations\20190912120525_initial.Designer.cs" />
-    <Compile Remove="Migrations\20190912131155_HeroisBatalhas_Identidade.cs" />
-    <Compile Remove="Migrations\20190912131155_HeroisBatalhas_Identidade.Designer.cs" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <ProjectReference Include="..\EFCore.Dominio\EFCore.Dominio.csproj" />
+    <ProjectReference Include="..\EFCore.Repo\EFCore.Repo.csproj" />
   </ItemGroup>
 
 </Project>
