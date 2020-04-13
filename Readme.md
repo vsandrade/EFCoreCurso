@@ -2,7 +2,7 @@
 
 ## Curso de Entity Framework Core - [Course](http://www.udemy.com/course/efcore-aspnetcore-webapi-sqlserver/).
 
-This is all of the files for our Course about Bootstrap 4.
+This is all of the files for our Course about EF Core!
 
 The Summary is:
 
